@@ -1,4 +1,4 @@
-# light-control-eafit
+# Light Control EAFIT
 Light system with Proportional, Integral and Derivative (PID) controller that adapts brightness based on the environment conditions. This repository includes Datalogger application installer, which allows to establish a serial communication with Arduino. This application sends a desired setpoint to Arduino and it reads the Measured signal from Arduino into the application. It plots setpoint and measurement and allows to export the data that was acquired during the execution. Windows, Linux and Mac installers are available.
 
 ## Example: A light control system with feedback

@@ -55,8 +55,8 @@ void loop() {
   if (Serial.available() > 0) {
     readBuffer = Serial.readStringUntil('\n');
     sp = readBuffer.toInt();
-    readBuffer = "";    
-    Serial.flush();    
+    readBuffer = "";
+    Serial.flush();
     Serial.println(int(y));
   }
   myPID.Compute();

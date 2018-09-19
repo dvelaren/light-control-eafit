@@ -7,6 +7,10 @@ Light system with Proportional, Integral and Derivative (PID) controller that ad
 
 This example allows to implement a PID Light Controller using Arduino, Matlab, Datalogger App, LDR Sensor and Power LED Hardware.
 
+## Testing
+
+First copy all the required libraries to My Documents / Arduino / libraries.
+
 In order to test this project follow the next steps:
 1. First install Datalogger application.
 2. Upload Arduino codes/arduinoMatlab/arduinoMatlab.ino to Arduino MEGA and edit code header to match the current pins of the device (LDR is connected to A0, Power LED is connected to PWM 2).
